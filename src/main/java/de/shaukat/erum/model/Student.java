@@ -1,6 +1,8 @@
 package de.shaukat.erum.model;
 
-public class Student {
+import java.util.Objects;
+
+public abstract class Student implements Citizen{
     private String name;
     private int age;
     private String grade;
@@ -45,7 +47,21 @@ public class Student {
 
     public String toString ()
     {
-        return name + " is " + age + " years old, their grade is " + grade;
+        return " name= " + name + " = " + " age = " + age + " grade = " + grade + " ";
 
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Student student = (Student) o;
+        return age == student.age && Objects.equals(name, student.name) && Objects.equals(grade, student.grade);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age, grade);
+    }
+    public abstract String study();
 }

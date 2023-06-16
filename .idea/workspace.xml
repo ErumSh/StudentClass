@@ -5,14 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1329aa64-0a21-48e7-a4ca-0348b48fe597" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/shaukat/erum/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/shaukat/erum/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/shaukat/erum/model/BiologyStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/shaukat/erum/model/Citizen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/shaukat/erum/model/ComputerScienceStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/shaukat/erum/model/GreetingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/shaukat/erum/model/PassportPrintService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/shaukat/erum/model/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/shaukat/erum/model/StudentDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/shaukat/erum/model/StudentDbHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/shaukat/erum/model/StudentDbLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/shaukat/erum/model/StudentArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/shaukat/erum/model/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/shaukat/erum/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/shaukat/erum/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/shaukat/erum/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/shaukat/erum/model/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -35,22 +44,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/erumshaukat/IdeaProjects/Student/src/main/java/de/shaukat/erum/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/erumshaukat/IdeaProjects/Student&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/erumshaukat/IdeaProjects/Student/src/main/java/de/shaukat/erum/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="de.shaukat.erum.model" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="de.shaukat.erum.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.shaukat.erum.Main" />
       <module name="Student" />
@@ -64,9 +87,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in Student" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Student" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.All in Student" />
       </list>
     </recent_temporary>
   </component>
@@ -78,11 +110,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683710665522</updated>
-      <workItem from="1683710669158" duration="5375000" />
+      <workItem from="1683710669158" duration="59736000" />
+      <workItem from="1685533962386" duration="179000" />
+      <workItem from="1685535084315" duration="10000" />
+      <workItem from="1685710577745" duration="14000" />
+      <workItem from="1686141965590" duration="69000" />
+      <workItem from="1686910743328" duration="886000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/shaukat/erum/model/StudentDb.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/shaukat/erum/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/shaukat/erum/model/StudentDb.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/shaukat/erum/model/StudentDb.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
